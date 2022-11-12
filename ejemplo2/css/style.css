@@ -1,0 +1,39 @@
+/* ESTILOS FLEXIBLES PARA EL PAPA  */
+.box{
+    background-color: aquamarine;
+    display: flex;
+    /* flex-direction: row;  *//* row, colum, colum-reverse*/
+   /*  flex-wrap: wrap; */
+
+    flex-flow: row-reverse wrap;
+    /* align-items: center; */
+    /* align-items: flex-end; */
+    justify-content: space-evenly;
+}
+/* ESTILO PARA LOS HIJOS - ETIQUETA DIV*/
+.box div{
+    background-color: aliceblue;
+    width: 50vh;
+    border: 2px solid black;
+}
+
+.box div img{
+    width: 50%;
+}
+
+main{
+    height: 50vh;
+    /* background-color: red; */
+  } 
+
+/* .izquierda {
+    flex: 1 1 auto;
+}
+
+.centro {
+    flex: 1 1 auto;
+}
+
+.derecha {
+    flex: 1 1 auto;
+} */

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: aqua;
+    width: 80%;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 5px;
+    flex-wrap: wrap;
+    width: 300px; 
+    background: hsl(208, 89%, 86%);
+    padding: 50px;
+    gap: 5px; */   
+}
+.card div img{
+    width: 100%;
+}
+.img1{
+    display: flex;
+    align-items: center;
+}
+@media screen and (max-width: 700px) {
+    body {
+      background-color: blue;
+    }
+
+    .card{
+        flex-wrap: nowrap;
+    }
+    /* OTHER */
+  }
+  .card2{
+    display:flex;
+    flex-wrap: wrap;
+  }
+  .card2 img{
+    width: 100%;
+}
